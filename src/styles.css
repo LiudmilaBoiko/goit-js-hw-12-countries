@@ -1,0 +1,87 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  line-height: 1.5;
+  color: darkblue;
+
+  /* background-image: url('./images/bg-pattern.png'); */
+  background-image: url('https://clipart-db.ru/file_content/rastr/xbackground_033_pre.jpg.pagespeed.ic.AYjwncGwR6.jpg');
+}
+/* img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.card {
+  width: 288px;
+}
+
+.card-text {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.card-img-top {
+  display: flex;
+  justify-content: center;
+}
+
+.search-form {
+  padding: 10px;
+}
+
+.card {
+  margin: 10px;
+} */
+h1 {
+  font-size: 48px;
+  color: brown;
+}
+
+.input-field {
+  padding: 10px 5px;
+  border-color: darkgray;
+  font-size: 20px;
+}
+
+.country-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 40px 40px;
+}
+.country-name {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  color: darkblue;
+}
+.country-info {
+  width: 500px;
+  font-size: 24px;
+}
+.country-languages-list {
+  padding-left: 0;
+}
+
+.country-languages-item {
+  margin-left: 60px;
+}
+
+.country-flag {
+  width: 500px;
+}
+.country-flag img {
+  width: 100%;
+}
