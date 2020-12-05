@@ -6,7 +6,6 @@ import getRefs from './getRefs';
 import '@pnotify/core/dist/BrightTheme.css';
 import '@pnotify/core/dist/PNotify.css';
 import { error } from '@pnotify/core';
-
 import { defaults } from '@pnotify/core';
 
 
